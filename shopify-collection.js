@@ -68,6 +68,15 @@ class shopifyCollectionElement extends HTMLElement {
           "position": "relative",
           "height": "0"
         }
+      },
+      "button": {
+        ":hover": {
+          "background-color": "#03317c"
+        },
+        "background-color": "#021d49",
+        ":focus": {
+          "background-color": "#03317c"
+        }
       }
     },
     "buttonDestination": "modal",
@@ -89,8 +98,8 @@ class shopifyCollectionElement extends HTMLElement {
   },
   "modalProduct": {
     "contents": {
-      "img": false,
-      "imgWithCarousel": true,
+      "img": true,
+      "imgWithCarousel": false,
       "button": false,
       "buttonWithQuantity": true
     },
@@ -101,6 +110,15 @@ class shopifyCollectionElement extends HTMLElement {
           "margin-left": "0px",
           "margin-bottom": "0px"
         }
+      },
+      "button": {
+        ":hover": {
+          "background-color": "#03317c"
+        },
+        "background-color": "#021d49",
+        ":focus": {
+          "background-color": "#03317c"
+        }
       }
     },
     "text": {
@@ -108,9 +126,33 @@ class shopifyCollectionElement extends HTMLElement {
     }
   },
   "cart": {
+    "styles": {
+      "button": {
+        ":hover": {
+          "background-color": "#03317c"
+        },
+        "background-color": "#021d49",
+        ":focus": {
+          "background-color": "#03317c"
+        }
+      }
+    },
     "text": {
       "total": "Subtotal",
       "button": "Checkout"
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#021d49",
+        ":hover": {
+          "background-color": "#03317c"
+        },
+        ":focus": {
+          "background-color": "#03317c"
+        }
+      }
     }
   }
 },
